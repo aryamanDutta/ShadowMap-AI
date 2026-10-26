@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Privacy-100%25_Local-10B981?style=for-the-badge&logo=lock&logoColor=white" alt="Privacy" />
   <img src="https://img.shields.io/badge/Heuristics-DistilBERT-F59E0B?style=for-the-badge&logo=python&logoColor=white" alt="Heuristics" />
   <br />
-  <h1>🛡️ ShadowMap AI</h1>
+  <h1> ShadowMap AI</h1>
   <p><b>Your Personal, 100% Offline AI Cybersecurity Copilot.</b></p>
   <p><i>Real-time threat intelligence, password protection, and zero-day defense running completely locally on your hardware.</i></p>
 </div>
@@ -19,7 +19,7 @@ ShadowMap brings contextual security intelligence directly into your browsing ex
 
 ---
 
-## 🛠️ Comprehensive Technology Stack
+##  Comprehensive Technology Stack
 
 ShadowMap AI is a full-stack, decentralized security application built across multiple paradigms:
 
