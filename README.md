@@ -11,7 +11,7 @@
 
 ---
 
-## 🌟 The Vision: Cybersecurity as an Instinct
+##  The Vision: Cybersecurity as an Instinct
 
 Traditional security tools require users to actively seek protection, read complex logs, or upload their private data to cloud servers. **ShadowMap AI reverses this model.** 
 
@@ -40,36 +40,36 @@ ShadowMap AI is a full-stack, decentralized security application built across mu
 
 ---
 
-## 🚀 The 5-Pillar Security Suite
+##  The 5-Pillar Security Suite
 
 ShadowMap features a dynamic "5-Tab Cockpit" that groups its immense capabilities into intuitive categories:
 
-### 1. 🔍 SCAN (Real-Time Telemetry & Domain Intelligence)
+### 1.  SCAN (Real-Time Telemetry & Domain Intelligence)
 * **Heuristic Scoring Engine**: Calculates a `ShadowScore` (0-100) based on multiple factors.
 * **Tracker Detection**: Scans the `<head>` and `<body>` for over a dozen known tracker signatures (Meta Pixel, Google Tag Manager, FingerprintJS).
 * **Brand Spoofing Detection**: Actively monitors the page title and domain. If an attacker uses a domain like `pensilvania.club` but writes "Santander Bank" in the `<title>`, ShadowMap instantly flags a critical brand impersonation attack.
 * **Dynamic DOM Mutations**: Hooks into JavaScript `MutationObserver` to catch malicious scripts modifying forms or links in real-time.
 
-### 2. 🔐 BREACH (Password Protection & Remediation)
+### 2.  BREACH (Password Protection & Remediation)
 * **Local k-Anonymity Engine**: Actively monitors `<input type="password">` fields across any website using a 500ms debounce.
 * **Inline Glassmorphic Warning**: If you type a known breached or weak password, ShadowMap instantly injects a stunning inline warning right into the webpage DOM.
 * **One-Click Remediation**: Click "Generate Strong Password" to instantly swap the breached password with a 16-character cryptographic string. This dispatches synthetic React/Angular events so modern web apps register the change seamlessly!
 * **Breach Radar**: Query your email against a local, offline SQLite database of known data breaches to see what data (passwords, locations, phones) was exposed.
 
-### 3. 🎣 PHISH (NLP Phishing Analysis)
+### 3.  PHISH (NLP Phishing Analysis)
 * **Drag-and-Drop Sandbox**: Drag any suspicious email text or raw HTML into the cockpit.
 * **DistilBERT Sentiment Analysis**: The offline NLP engine parses the text for urgency, threats, or suspicious links, classifying the exact type of phishing attack.
 
-### 4. 📱 APK (Android Malware Heuristics)
+### 4.  APK (Android Malware Heuristics)
 * **Permissions Sandbox**: Analyze Android Application Packages (.apk) by dragging them into the dashboard. ShadowMap extracts and reviews manifest permissions (e.g., `READ_EXTERNAL_STORAGE`, `INTERNET`) to gauge malware likelihood.
 
-### 5. 💬 CHAT (Your Local Security Analyst)
+### 5.  CHAT (Your Local Security Analyst)
 * **Conversational AI**: Talk directly to the **SmolLM2-135M** LLM. Ask it about recent vulnerabilities, how to secure your router, or to explain what a "Zero Day" is.
 * **100% Offline**: Because it runs on your GPU/CPU, you can share sensitive logs or code snippets without fear of them being sent to a third-party server.
 
 ---
 
-## 🏗️ Technical Architecture & Telemetry Flow
+##  Technical Architecture & Telemetry Flow
 
 ShadowMap relies on a sophisticated decoupled architecture. The Chrome Extension acts as a "spy," passively gathering telemetry, while the heavy lifting is offloaded to the Python backend.
 
@@ -101,7 +101,7 @@ graph TD
 
 ---
 
-## 🧠 The Engineering Journey: What We Did
+##  The Engineering Journey: What We Did
 
 Building ShadowMap AI required overcoming significant technical hurdles:
 
